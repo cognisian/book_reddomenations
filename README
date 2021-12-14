@@ -1,0 +1,3 @@
+Set of Python scripts for NomadReader to extract data from wordPress DB, 
+read/write data to JSON files, perform text analysis on book reviews and
+generate word clouds for books.
