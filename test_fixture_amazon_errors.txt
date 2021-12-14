@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+ <OperationRequest>
+  <HTTPHeaders>
+   <Header Name="UserAgent" Value="Python-urllib/3.6"/>
+  </HTTPHeaders>
+  <RequestId>
+   d82ad5a1-da19-4060-b1d2-189cae2c5dad
+  </RequestId>
+  <Arguments>
+   <Argument Name="AWSAccessKeyId" Value="AKIAINMQATUGYM2WDFLA"/>
+   <Argument Name="AssociateTag" Value="nomadus-20"/>
+   <Argument Name="IdType" Value="ISBN"/>
+   <Argument Name="ItemId"/>
+   <Argument Name="Operation" Value="ItemLookup"/>
+   <Argument Name="ResponseGroup" Value="Medium,SalesRank,Reviews"/>
+   <Argument Name="SearchIndex" Value="Books"/>
+   <Argument Name="Service" Value="AWSECommerceService"/>
+   <Argument Name="Timestamp" Value="2017-11-22T16:36:26Z"/>
+   <Argument Name="Version" Value="2013-08-01"/>
+   <Argument Name="Signature" Value="+NpzNTIKh0f8YqBQm8TJySWjjZ11WBpYVccW1RosJJQ="/>
+  </Arguments>
+  <RequestProcessingTime>
+   0.0011477410000000
+  </RequestProcessingTime>
+ </OperationRequest>
+ <Items>
+  <Request>
+   <IsValid>
+    False
+   </IsValid>
+   <ItemLookupRequest>
+    <IdType>
+     ISBN
+    </IdType>
+    <ResponseGroup>
+     Medium
+    </ResponseGroup>
+    <ResponseGroup>
+     SalesRank
+    </ResponseGroup>
+    <ResponseGroup>
+     Reviews
+    </ResponseGroup>
+    <SearchIndex>
+     Books
+    </SearchIndex>
+    <VariationPage>
+     All
+    </VariationPage>
+   </ItemLookupRequest>
+   <Errors>
+    <Error>
+     <Code>
+      AWS.MissingParameters
+     </Code>
+     <Message>
+      Your request is missing required parameters. Required parameters include ItemId.
+     </Message>
+    </Error>
+   </Errors>
+  </Request>
+ </Items>
+</ItemLookupResponse>

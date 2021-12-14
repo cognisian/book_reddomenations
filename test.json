@@ -1,0 +1,22 @@
+[
+  {
+    "isbn": "00",
+    "asin": "",
+    "title": "Test",
+    "rank": 0,
+    "authors": null,
+    "city": "",
+    "country": "",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "periods": null,
+    "genres": null,
+    "image": "",
+    "ratings": null,
+    "readability": 0,
+    "story_arc": null,
+    "where_to_read": "",
+    "word_cloud": "",
+    "summary": ""
+  }
+]

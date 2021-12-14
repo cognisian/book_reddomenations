@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+ <OperationRequest>
+  <HTTPHeaders>
+   <Header Name="UserAgent" Value="Python-urllib/3.6"/>
+  </HTTPHeaders>
+  <RequestId>
+   ffa6a3b7-aef5-4a3c-b9eb-fb6209b9a282
+  </RequestId>
+  <Arguments>
+   <Argument Name="AWSAccessKeyId" Value="AKIAINMQATUGYM2WDFLA"/>
+   <Argument Name="AssociateTag" Value="nomadus-20"/>
+   <Argument Name="IdType" Value="ISBN"/>
+   <Argument Name="ItemId" Value="0006485324"/>
+   <Argument Name="Operation" Value="ItemLookup"/>
+   <Argument Name="ResponseGroup" Value="Medium,SalesRank,Reviews"/>
+   <Argument Name="SearchIndex" Value="Books"/>
+   <Argument Name="Service" Value="AWSECommerceService"/>
+   <Argument Name="Timestamp" Value="2017-11-22T16:30:02Z"/>
+   <Argument Name="Version" Value="2013-08-01"/>
+   <Argument Name="Signature" Value="DXNI3X7xv1C7oEUmt8x2cQbid4JSDQsiqBBcCCxFA/U="/>
+  </Arguments>
+  <RequestProcessingTime>
+   0.0233257880000000
+  </RequestProcessingTime>
+ </OperationRequest>
+ <Items>
+  <Request>
+   <IsValid>
+    True
+   </IsValid>
+   <ItemLookupRequest>
+    <IdType>
+     ISBN
+    </IdType>
+    <ItemId>
+     0006485324
+    </ItemId>
+    <ResponseGroup>
+     Medium
+    </ResponseGroup>
+    <ResponseGroup>
+     SalesRank
+    </ResponseGroup>
+    <ResponseGroup>
+     Reviews
+    </ResponseGroup>
+    <SearchIndex>
+     Books
+    </SearchIndex>
+    <VariationPage>
+     All
+    </VariationPage>
+   </ItemLookupRequest>
+  </Request>
+  <Item>
+   <ASIN>
+    0006485324
+   </ASIN>
+   <DetailPageURL>
+    https://www.amazon.com/Headhunter-Timothy-Findley/dp/0006485324?SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=0006485324
+   </DetailPageURL>
+   <ItemLinks>
+    <ItemLink>
+     <Description>
+      Technical Details
+     </Description>
+     <URL>
+      https://www.amazon.com/Headhunter-Timothy-Findley/dp/tech-data/0006485324?SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      Add To Baby Registry
+     </Description>
+     <URL>
+      https://www.amazon.com/gp/registry/baby/add-item.html?asin.0=0006485324&amp;SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      Add To Wedding Registry
+     </Description>
+     <URL>
+      https://www.amazon.com/gp/registry/wedding/add-item.html?asin.0=0006485324&amp;SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      Add To Wishlist
+     </Description>
+     <URL>
+      https://www.amazon.com/gp/registry/wishlist/add-item.html?asin.0=0006485324&amp;SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      Tell A Friend
+     </Description>
+     <URL>
+      https://www.amazon.com/gp/pdp/taf/0006485324?SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      All Customer Reviews
+     </Description>
+     <URL>
+      https://www.amazon.com/review/product/0006485324?SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+    <ItemLink>
+     <Description>
+      All Offers
+     </Description>
+     <URL>
+      https://www.amazon.com/gp/offer-listing/0006485324?SubscriptionId=AKIAINMQATUGYM2WDFLA&amp;tag=nomadus-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=0006485324
+     </URL>
+    </ItemLink>
+   </ItemLinks>
+   <SalesRank>
+    3777191
+   </SalesRank>
+   <SmallImage>
+    <URL>
+     https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL75_.jpg
+    </URL>
+    <Height Units="pixels">
+     75
+    </Height>
+    <Width Units="pixels">
+     50
+    </Width>
+   </SmallImage>
+   <MediumImage>
+    <URL>
+     https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL160_.jpg
+    </URL>
+    <Height Units="pixels">
+     160
+    </Height>
+    <Width Units="pixels">
+     107
+    </Width>
+   </MediumImage>
+   <LargeImage>
+    <URL>
+     https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL.jpg
+    </URL>
+    <Height Units="pixels">
+     500
+    </Height>
+    <Width Units="pixels">
+     333
+    </Width>
+   </LargeImage>
+   <ImageSets>
+    <ImageSet Category="primary">
+     <SwatchImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL30_.jpg
+      </URL>
+      <Height Units="pixels">
+       30
+      </Height>
+      <Width Units="pixels">
+       20
+      </Width>
+     </SwatchImage>
+     <SmallImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL75_.jpg
+      </URL>
+      <Height Units="pixels">
+       75
+      </Height>
+      <Width Units="pixels">
+       50
+      </Width>
+     </SmallImage>
+     <ThumbnailImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL75_.jpg
+      </URL>
+      <Height Units="pixels">
+       75
+      </Height>
+      <Width Units="pixels">
+       50
+      </Width>
+     </ThumbnailImage>
+     <TinyImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL110_.jpg
+      </URL>
+      <Height Units="pixels">
+       110
+      </Height>
+      <Width Units="pixels">
+       73
+      </Width>
+     </TinyImage>
+     <MediumImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL._SL160_.jpg
+      </URL>
+      <Height Units="pixels">
+       160
+      </Height>
+      <Width Units="pixels">
+       107
+      </Width>
+     </MediumImage>
+     <LargeImage>
+      <URL>
+       https://images-na.ssl-images-amazon.com/images/I/51YiHyV3JjL.jpg
+      </URL>
+      <Height Units="pixels">
+       500
+      </Height>
+      <Width Units="pixels">
+       333
+      </Width>
+     </LargeImage>
+    </ImageSet>
+   </ImageSets>
+   <ItemAttributes>
+    <Author>
+     Timothy Findley
+    </Author>
+    <Binding>
+     Paperback
+    </Binding>
+    <EAN>
+     9780006485322
+    </EAN>
+    <EANList>
+     <EANListElement>
+      9780006485322
+     </EANListElement>
+    </EANList>
+    <Format>
+     International Edition
+    </Format>
+    <ISBN>
+     0006485324
+    </ISBN>
+    <Label>
+     Harper Perennial
+    </Label>
+    <Languages>
+     <Language>
+      <Name>
+       English
+      </Name>
+      <Type>
+       Published
+      </Type>
+     </Language>
+     <Language>
+      <Name>
+       English
+      </Name>
+      <Type>
+       Original Language
+      </Type>
+     </Language>
+     <Language>
+      <Name>
+       English
+      </Name>
+      <Type>
+       Unknown
+      </Type>
+     </Language>
+    </Languages>
+    <ListPrice>
+     <Amount>
+      1690
+     </Amount>
+     <CurrencyCode>
+      USD
+     </CurrencyCode>
+     <FormattedPrice>
+      $16.90
+     </FormattedPrice>
+    </ListPrice>
+    <Manufacturer>
+     Harper Perennial
+    </Manufacturer>
+    <NumberOfPages>
+     528
+    </NumberOfPages>
+    <PackageDimensions>
+     <Height Units="hundredths-inches">
+      160
+     </Height>
+     <Length Units="hundredths-inches">
+      690
+     </Length>
+     <Weight Units="hundredths-pounds">
+      55
+     </Weight>
+     <Width Units="hundredths-inches">
+      420
+     </Width>
+    </PackageDimensions>
+    <ProductGroup>
+     Book
+    </ProductGroup>
+    <ProductTypeName>
+     ABIS_BOOK
+    </ProductTypeName>
+    <PublicationDate>
+     1999-09-27
+    </PublicationDate>
+    <Publisher>
+     Harper Perennial
+    </Publisher>
+    <ReleaseDate>
+     1999-09-27
+    </ReleaseDate>
+    <SKU>
+     405564554
+    </SKU>
+    <Studio>
+     Harper Perennial
+    </Studio>
+    <Title>
+     Headhunter
+    </Title>
+   </ItemAttributes>
+   <OfferSummary>
+    <LowestNewPrice>
+     <Amount>
+      2870
+     </Amount>
+     <CurrencyCode>
+      USD
+     </CurrencyCode>
+     <FormattedPrice>
+      $28.70
+     </FormattedPrice>
+    </LowestNewPrice>
+    <LowestUsedPrice>
+     <Amount>
+      767
+     </Amount>
+     <CurrencyCode>
+      USD
+     </CurrencyCode>
+     <FormattedPrice>
+      $7.67
+     </FormattedPrice>
+    </LowestUsedPrice>
+    <TotalNew>
+     4
+    </TotalNew>
+    <TotalUsed>
+     18
+    </TotalUsed>
+    <TotalCollectible>
+     0
+    </TotalCollectible>
+    <TotalRefurbished>
+     0
+    </TotalRefurbished>
+   </OfferSummary>
+   <CustomerReviews>
+    <IFrameURL>
+     https://www.amazon.com/reviews/iframe?akid=AKIAINMQATUGYM2WDFLA&amp;alinkCode=xm2&amp;asin=0006485324&amp;atag=nomadus-20&amp;exp=2017-11-23T16%3A29%3A14Z&amp;v=2&amp;sig=Gk6I%252FIL%252BaZQf7u0kcyz%252BURt7YLNyrCBYDMoQH0BdYFM%253D
+    </IFrameURL>
+    <HasReviews>
+     true
+    </HasReviews>
+   </CustomerReviews>
+   <EditorialReviews>
+    <EditorialReview>
+     <Source>
+      Product Description
+     </Source>
+     <Content>
+      &lt;strong&gt;It all starts when Lilah Kemp - librarian, spiritualist, schizophrenic - inadvertantly lets Kurtz out of page 92 of &lt;em&gt;Heart of Darkness&lt;/em&gt; and is unable to get him back in.&lt;/strong&gt;&lt;p&gt;While Kurtz is stalking the streets of Toronto, Lilah frantically begins her search for Marlow to help her deal with the literary villain&lt;p&gt;Meanwhile, the city is becoming increasingly chaotic and terrifying. The rich and powerful are engaged in a web of depravity, a new and horrifying disease called sturnusemia has swept the city, and severly traumatized children are turning up at the local psychiatric institutes. Kurtz seems to be at the centre of it all.&lt;p&gt;Lilah, witness to events tearing the very fabric of her society, seeks solace as always in the great works of literature and prays for Marlow to find an capture Kurtz - before it's too late.
+     </Content>
+     <IsLinkSuppressed>
+      0
+     </IsLinkSuppressed>
+    </EditorialReview>
+   </EditorialReviews>
+  </Item>
+ </Items>
+</ItemLookupResponse>
